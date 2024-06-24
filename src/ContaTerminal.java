@@ -5,7 +5,6 @@ public class ContaTerminal {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        
 
         //Saudações de entrada
         System.out.println("Bem vindo ao aplicativo meu banco!  ");
@@ -29,20 +28,6 @@ public class ContaTerminal {
         //Concatenação das informações inseridas
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia + ", sua conta é " + numeroConta + " e seu saldo " + saldo + ". Já está disponível para saque!" );
         
-        
 
-
-        
-
-        
-
-
-
-
-        
-
-
-        
-
-    }
+}
 }
